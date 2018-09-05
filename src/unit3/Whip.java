@@ -1,0 +1,29 @@
+package unit3;
+/**
+ * 
+ * @author Stone
+ * Whip     vt. 抽打；煽动；搅打（蛋，奶油）
+ */
+public class Whip extends CondimentDecorator {
+
+	Beverage beverage; //要装饰的组件,此方法用到了委托机制
+	/**
+	 * 委派和继承都是为了提高代码的复用性，只是方式不同。
+		委派：一个对象请求另一个对象的功能，捕获一个操作并将其发送到另一个对象。
+		继承：利用extends来扩展一个基类
+	 */
+	public Whip(Beverage beverage) {
+		this.beverage=beverage;
+	}
+
+
+	@Override
+	public String getDescription() {
+		return beverage.getDescription()+",Whip";
+	}
+	@Override
+	public double cost() {
+		return beverage.cost()+2.00;
+	}
+
+}
