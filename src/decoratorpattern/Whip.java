@@ -1,4 +1,4 @@
-package unit3;
+package decoratorpattern;
 /**
  * 
  * @author Stone

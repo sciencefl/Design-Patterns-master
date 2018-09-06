@@ -1,7 +1,7 @@
 /**
  * 
  */
-package unit3;
+package decoratorpattern;
 
 /**
  * Condiment 是调料的意思

@@ -1,9 +1,10 @@
 /**
  * 
  */
-package unit2;
+package observerpattern;
 
 import java.util.ArrayList;
+import java.util.Observable;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 

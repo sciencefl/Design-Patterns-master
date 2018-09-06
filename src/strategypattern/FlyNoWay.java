@@ -1,7 +1,7 @@
 /**
  * 
  */
-package unit1;
+package strategypattern;
 
 /**
  * @author Stone

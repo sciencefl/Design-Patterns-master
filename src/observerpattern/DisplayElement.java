@@ -1,4 +1,4 @@
-package unit2;
+package observerpattern;
 
 public interface DisplayElement {
 	public void display();

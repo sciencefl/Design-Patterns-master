@@ -1,4 +1,8 @@
-package unit1;
+package strategypattern;
+
+import java.util.Observable;
+
+import observerpattern.Observer;
 
 public class MallardDuck extends Duck {
 	public MallardDuck() {

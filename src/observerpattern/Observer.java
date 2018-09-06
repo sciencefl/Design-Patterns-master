@@ -1,7 +1,7 @@
 /**
  * 
  */
-package unit2;
+package observerpattern;
 
 /**
  * @author Stone

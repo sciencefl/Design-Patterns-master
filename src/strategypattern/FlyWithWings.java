@@ -1,4 +1,4 @@
-package unit1;
+package strategypattern;
 /*
  * ´ø³á°òµÄ·ÉÐÐ
  */
