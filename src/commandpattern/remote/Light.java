@@ -6,10 +6,11 @@ package commandpattern.remote;
  *
  */
 public class Light {
-	 //String  location;
+	 String  location;
 	int level;
-	public Light() {
+	public Light(String location) {
 		// TODO Auto-generated constructor stub
+		this.location=location;
 	}
 	public void on() {
 		level=100;
@@ -17,14 +18,14 @@ public class Light {
 	}
 	public void off() {
 		level=0;
-		System.out.println("Light is off");
+		System.out.println(location +  "Light is off");
 	}
 	public void dim(int level) {
 		this.level=level;
 		if(level==0) {
 			off();
 		}else {
-			System.out.println("The light is dimed to "+level+"%");
+			System.out.println(location +  "The light is dimed to "+level+"%");
 		}
 	}
 	public int getLevel() {
