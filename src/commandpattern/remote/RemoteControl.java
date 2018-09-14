@@ -1,5 +1,9 @@
 package commandpattern.remote;
-
+ /**
+  * 整体遥控器   有七个卡槽，分别绑定命令
+  * @author Stone
+  *
+  */
 public class RemoteControl {
 	Command[] onCommands;
 	Command[] offCommands;

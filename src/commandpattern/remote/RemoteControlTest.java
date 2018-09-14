@@ -9,7 +9,7 @@ public class RemoteControlTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SimpleRemoteControl simpleRemoteControl=new SimpleRemoteControl(); //初始化一个遥控器
-		Light light=new Light();  //有了一个灯
+		Light light=new Light(null);  //有了一个灯
 		Command remote=new LightOnCommand(light); // 初始化一个命令,并绑定receiver
 		//利用命令来参数化对象
 		simpleRemoteControl.setCommand(remote); //给遥控器绑定命令  --给顾客一个订单
