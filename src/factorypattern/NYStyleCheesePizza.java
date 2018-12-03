@@ -4,9 +4,10 @@ public class NYStyleCheesePizza extends Pizza {
 
 	public NYStyleCheesePizza() {
 		// TODO Auto-generated constructor stub
-		name="New York Style Pizza";
+		name="New York Style Cheese Pizza";
 		dough="Thin Crust Dough";
 		sauce="WuHan Sauce";
+		toppings.add("WuHan Cheese");
 	}
 
 }
